@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1544331253 source:c:\users\robson\documents\projetos c\licao\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<windows.h>
+
+1582276069 source:c:\users\robso\documents\testes de programação\c\licao\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<windows.h>
+	<stdbool.h>
+	<time.h>
+
