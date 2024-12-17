@@ -4,6 +4,7 @@
 #include <windows.h>
 #include <stdbool.h>
 #include <time.h>
+#include <conio.h>
 
 #define CODIGO "teste"
 #define CODIGOJ "jogo"
@@ -122,6 +123,16 @@ int confirmacao(bool conf);
 
 bool codigo(char c);
 bool codigoJ(char c);
+
+int pegarInt(int qCaracter, int numLimite);
+void borda(int x, int y, int lar, int alt);
+void teste(inicio *i);
+void jogo();
+void corLetra(Cor cor);
+void CorFundo(Cor cor);
+void repetir(char c, int tamanho);
+void infoAluno(aluno* a);
+int strParaInt(char s[]);
 
 /* informaçoes padronizadas */
 #define NUM_MIN_ALUNOS 6
@@ -1113,6 +1124,8 @@ struct Parte{
     struct Parte *prox;
 };
 typedef struct Parte parte;
+
+void addParte(parte* p);
 
 void jogo(){
     system("cls");
